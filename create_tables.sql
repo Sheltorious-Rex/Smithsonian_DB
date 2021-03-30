@@ -74,7 +74,6 @@ CREATE TABLE EVENT (
     Event_name VARCHAR(100) NOT NULL, 
     Sponsor_name VARCHAR(100) NOT NULL, 
     Event_type VARCHAR(100), 
---    Price_of_admit DECIMAL(5,2),
     Start_time TIMESTAMP, 
     End_time TIMESTAMP, 
     Start_date DATE,
@@ -82,6 +81,7 @@ CREATE TABLE EVENT (
     About VARCHAR(1000), 
     URLs VARCHAR(100), 
     Event_FAQ VARCHAR(100),
+    Price_of_admit FLOAT,
     PRIMARY KEY (Event_name),
     FOREIGN KEY (Sponsor_name) REFERENCES SI_COMPONENT (Name)
 );
@@ -152,7 +152,7 @@ CREATE TABLE MACRO_LOCALE (
     Zip_code INTEGER NOT NULL, 
     Contains_component VARCHAR(100) NOT NULL, 
     Admission_cost DECIMAL(5,2), 
-    Buy_ticket_URL VARCHAR(100), 
+    Buy_ticket_URL VARCHAR(1000), 
     Open_time TIMESTAMP, 
     Close_time TIMESTAMP,
 --    Close_time TIMESTAMP CHECK(Close_time > Open_time), 
