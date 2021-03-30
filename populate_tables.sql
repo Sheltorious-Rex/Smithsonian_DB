@@ -16,16 +16,29 @@
 --INSERT INTO ARTIFACT
 --VALUES ();
 --
---INSERT ALL 
---    INTO ARTWORK VALUES(0,'Bonehalisa','Lovely colors depicting a chick and a flower.','Fhil','Harper',DATE '1640-06-15','Painting','bonehalisa/si.com')
---    INTO ARTWORK VALUES(1,'Love Hammer', 'Lovely colors depicting a flower and a stick.', 'Fhil','Harper', DATE '1641-06-11', 'Painting', 'lovehammer/si.com')
---    INTO ARTWORK VALUES(2,'Sticky Chops', 'Lunch with an uncle.', 'Fhil','Harper', DATE '1740-02-1', 'Painting', 'stickychops/si.com')
---    INTO ARTWORK VALUES(3,'Swan neck', 'A picture of a goose neck.', 'Dana','Swamble', DATE '1744-12-6', 'Painting', 'swanneck/si.com')
---    INTO ARTWORK VALUES(4,'Mushroom soup', 'A swamp inside of a shoe.', 'Billy','Tortle', DATE '1989-08-20', 'Painting', 'mushysoup/si.com')
---    INTO ARTWORK VALUES(5,'Cliff', 'Rocks giving an extreme vertical experience.', 'Billy','Harper', DATE '1990-06-15', 'Painting', 'cliff/si.com')
---    INTO ARTWORK VALUES(6,'Cloud face', 'Staring at the sky in torpor', 'Billy','Harper', DATE '1999-3-20', 'Painting', 'couldface/si.com')
---    INTO ARTWORK VALUES(7,'Butterfly lips', 'It is a bugs life', 'Jon','Collins', DATE '1776-12-25', 'Painting', 'butterfly/si.com')
---SELECT * FROM dual;
+
+--INSERT INTO OBJECT
+INSERT ALL 
+    INTO OBJECT VALUES(0,'Bonehalisa','Lovely colors depicting a chick and a flower.',DATE '1640-06-15')
+    INTO OBJECT VALUES(1,'Love Hammer', 'Lovely colors depicting a flower and a stick.',DATE '1641-06-11')
+    INTO OBJECT VALUES(2,'Sticky Chops', 'Lunch with an uncle.', DATE '1740-02-1')
+    INTO OBJECT VALUES(3,'Swan neck', 'A picture of a goose neck.',DATE '1744-12-6')
+    INTO OBJECT VALUES(4,'Mushroom soup', 'A swamp inside of a shoe.',DATE '1989-08-20')
+    INTO OBJECT VALUES(5,'Cliff', 'Rocks giving an extreme vertical experience.', DATE '1990-06-15')
+    INTO OBJECT VALUES(6,'Cloud face', 'Staring at the sky in torpor',DATE '1999-3-20')
+    INTO OBJECT VALUES(7,'Butterfly lips', 'It is a bugs life', DATE '1776-12-25')
+SELECT * FROM dual;
+
+INSERT ALL 
+    INTO ARTWORK VALUES(0,'Bonehalisa','Lovely colors depicting a chick and a flower.','Fhil','Harper',DATE '1640-06-15','Painting','bonehalisa/si.com')
+    INTO ARTWORK VALUES(1,'Love Hammer', 'Lovely colors depicting a flower and a stick.', 'Fhil','Harper', DATE '1641-06-11', 'Painting', 'lovehammer/si.com')
+    INTO ARTWORK VALUES(2,'Sticky Chops', 'Lunch with an uncle.', 'Fhil','Harper', DATE '1740-02-1', 'Painting', 'stickychops/si.com')
+    INTO ARTWORK VALUES(3,'Swan neck', 'A picture of a goose neck.', 'Dana','Swamble', DATE '1744-12-6', 'Painting', 'swanneck/si.com')
+    INTO ARTWORK VALUES(4,'Mushroom soup', 'A swamp inside of a shoe.', 'Billy','Tortle', DATE '1989-08-20', 'Painting', 'mushysoup/si.com')
+    INTO ARTWORK VALUES(5,'Cliff', 'Rocks giving an extreme vertical experience.', 'Billy','Harper', DATE '1990-06-15', 'Painting', 'cliff/si.com')
+    INTO ARTWORK VALUES(6,'Cloud face', 'Staring at the sky in torpor', 'Billy','Harper', DATE '1999-3-20', 'Painting', 'couldface/si.com')
+    INTO ARTWORK VALUES(7,'Butterfly lips', 'It is a bugs life', 'Jon','Collins', DATE '1776-12-25', 'Painting', 'butterfly/si.com')
+SELECT * FROM dual;
 --
 --INSERT INTO BIOPARK
 --VALUES ();
@@ -187,8 +200,7 @@
 --INSERT INTO MUSEUM
 --VALUES ();
 --
---INSERT INTO OBJECT
---VALUES ();
+
 --
 --INSERT INTO ORGANISM
 --VALUES ();
