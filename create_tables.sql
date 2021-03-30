@@ -10,7 +10,6 @@ DROP TABLE researches;
 DROP TABLE INITIATIVE;
 DROP TABLE EDUCATION_CENTER;
 
-
 DROP TABLE GIFT;
 DROP TABLE MEMBER;
 DROP TABLE MEMBER_LEVEL;
@@ -150,8 +149,6 @@ CREATE TABLE EDUCATION_CENTER (
 CREATE TABLE INITIATIVE (
     Initiative_name VARCHAR(100) NOT NULL, 
     Education_center_name VARCHAR(100) NOT NULL, 
-    Description VARCHAR(1000), 
-    URL VARCHAR(100),
     PRIMARY KEY (Initiative_name),
     FOREIGN KEY (Education_center_name) REFERENCES EDUCATION_CENTER (Edu_center_name)
 );
@@ -192,8 +189,6 @@ CREATE TABLE GIFT (
     Estimated_value REAL CHECK(Estimated_value >= 0),
     PRIMARY KEY (Gift_id)
 );
-
-
 
 CREATE TABLE MEMBER_LEVEL (
     Level_name VARCHAR(100) NOT NULL, 
