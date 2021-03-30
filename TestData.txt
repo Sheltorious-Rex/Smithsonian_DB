@@ -1,0 +1,83 @@
+SI_COMPONENT
+Freer Gallery of Art
+Chinese paintings, Indian sculpture; Islamic painting and metalware; Japanese lacquer; Korean ceramics; American Art from the late 19th-century aesthetic movement; Whistler’s Peacock Room.
+https://www.si.edu/museums/freer-gallery
+The Smithsonian Institution has two museums of Asian art: the Freer Gallery of Art and the Arthur M. Sackler Gallery. The Freer Gallery houses one of the premier collections of Asian art, with objects dating from Neolithic times to the early 20th century, as well as the world's most important collection of works by James McNeill Whistler.
+
+SI_COMPONENT
+National Portrait Gallery
+America’s Presidents, the nation’s only complete collection of presidential portraits outside the White House including the Obama portraits; workshops and programs for young people; Portrait Discovery Kits for kids and families; the Kogod Courtyard.
+https://www.si.edu/museums/portrait-gallery
+With visual arts, performing arts, and new media, the Portrait Gallery introduces you to the people who have shaped the country—poets, presidents, actors, activists, visionaries, villains...and everyone in between. Its collection weaves together story and biography from precolonial times to the present to tell the American story.
+
+MICRO_LOCALE
+Gilded Age
+National Portrait Gallery
+005
+A place where portraits from the gilded age are displayed.
+Second Floor, East Wing
+null
+
+MICRO_LOCALE
+America's Presidents
+National Portrait Gallery
+008
+A place where portraits from the American Presidents are displayed.
+Second Floor, Southwest Corner
+null
+
+MICRO_LOCALE
+Lincoln Gallery
+National Portrait Gallery
+009
+A place where portraits of Lincoln are displayed.
+Third Floor, East Wing
+null
+
+MICRO_LOCALE
+Buddhist Art in Japan
+Freer Gallery of Art
+002
+A place where Buddhist Art from Japan is displayed.
+First Floor, Northeast Corner
+null
+
+MICRO_LOCALE
+Korean Art
+Freer Gallery of Art
+004
+A place where art from Korea is displayed.
+First Floor, West Wing
+null
+
+MACRO_LOCALE
+1050
+Independence Ave SW
+DC
+20560
+Freer Gallery of Art
+free
+https://www.google.com/maps/place/1050+Independence+Ave+SW,+Washington,+DC+20560/@38.887983,-77.0286342,17z/data=!3m1!4b1!4m5!3m4!1s0x89b7b79c39ed032d:0x3f9bbe9214350dcf!8m2!3d38.887983!4d-77.0264455
+1000
+1730
+https://www.si.edu/visit/tips
+https://www.si.edu/visit/VisitorsWithDisabilities
+We encourage the use of public transportation. \nMetro Station: Smithsonian (Mall or Independence Ave. exit) \n There is no public parking facility for Smithsonian museums on the National Mall. Limited 3-hour metered parking and commercial lots are available—see parking map. Reserved parking near the museums can be purchased in advance through ParkWhiz.
+dining null
+
+MACRO_LOCALE
+750
+Ninth Street NW Suite 410
+DC
+20001
+National Portrait Gallery
+free
+https://www.google.com/maps/place/National+Portrait+Gallery/@38.8978267,-77.0252077,17z/data=!3m1!4b1!4m5!3m4!1s0x89b7b7918467d295:0x2a576a2d70cc9d9c!8m2!3d38.8978267!4d-77.023019
+1000
+1830
+https://www.si.edu/visit/tips
+https://www.si.edu/visit/VisitorsWithDisabilities
+Metro Station: Gallery Place-Chinatown (9th St. exit) \n There is no public parking facility for Smithsonian museums on the National Mall. Limited 3-hour metered parking and commercial lots are available—see parking map. Reserved parking near the museums can be purchased in advance through ParkWhiz.
+Courtyard Café \n The Café offers a fresh and seasonal menu of Mediterranean-inspired dishes. Using primarily local, organic, and sustainable ingredients, the lunch menu includes salads, soups, quiche, sandwiches, and a selection of cheeses. The Café also offers desserts, such as cheesecake, bread pudding, and kid-friendly cookies and cupcakes. 11:30 a.m. to 6:30 p.m.* daily (Lunch menu served until 3 p.m. weekdays and 4 p.m. weekends)
+
+
