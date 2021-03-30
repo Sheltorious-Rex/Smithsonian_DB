@@ -1,0 +1,193 @@
+SI_COMPONENT
+Freer Gallery of Art
+Chinese paintings, Indian sculpture; Islamic painting and metalware; Japanese lacquer; Korean ceramics; American Art from the late 19th-century aesthetic movement; Whistler’s Peacock Room.
+https://www.si.edu/museums/freer-gallery
+The Smithsonian Institution has two museums of Asian art: the Freer Gallery of Art and the Arthur M. Sackler Gallery. The Freer Gallery houses one of the premier collections of Asian art, with objects dating from Neolithic times to the early 20th century, as well as the world's most important collection of works by James McNeill Whistler.
+
+SI_COMPONENT
+National Portrait Gallery
+America’s Presidents, the nation’s only complete collection of presidential portraits outside the White House including the Obama portraits; workshops and programs for young people; Portrait Discovery Kits for kids and families; the Kogod Courtyard.
+https://www.si.edu/museums/portrait-gallery
+With visual arts, performing arts, and new media, the Portrait Gallery introduces you to the people who have shaped the country—poets, presidents, actors, activists, visionaries, villains...and everyone in between. Its collection weaves together story and biography from precolonial times to the present to tell the American story.
+
+MICRO_LOCALE
+Gilded Age
+National Portrait Gallery
+005
+A place where portraits from the gilded age are displayed.
+Second Floor, East Wing
+null
+
+MICRO_LOCALE
+America's Presidents
+National Portrait Gallery
+008
+A place where portraits from the American Presidents are displayed.
+Second Floor, Southwest Corner
+null
+
+MICRO_LOCALE
+Lincoln Gallery
+National Portrait Gallery
+009
+A place where portraits of Lincoln are displayed.
+Third Floor, East Wing
+null
+
+MICRO_LOCALE
+Buddhist Art in Japan
+Freer Gallery of Art
+002
+A place where Buddhist Art from Japan is displayed.
+First Floor, Northeast Corner
+null
+
+MICRO_LOCALE
+Korean Art
+Freer Gallery of Art
+004
+A place where art from Korea is displayed.
+First Floor, West Wing
+null
+
+MACRO_LOCALE
+1050
+Independence Ave SW
+DC
+20560
+Freer Gallery of Art
+free
+https://www.google.com/maps/place/1050+Independence+Ave+SW,+Washington,+DC+20560/@38.887983,-77.0286342,17z/data=!3m1!4b1!4m5!3m4!1s0x89b7b79c39ed032d:0x3f9bbe9214350dcf!8m2!3d38.887983!4d-77.0264455
+1000
+1730
+https://www.si.edu/visit/tips
+https://www.si.edu/visit/VisitorsWithDisabilities
+We encourage the use of public transportation. \nMetro Station: Smithsonian (Mall or Independence Ave. exit) \n There is no public parking facility for Smithsonian museums on the National Mall. Limited 3-hour metered parking and commercial lots are available—see parking map. Reserved parking near the museums can be purchased in advance through ParkWhiz.
+dining null
+
+MACRO_LOCALE
+750
+Ninth Street NW Suite 410
+DC
+20001
+National Portrait Gallery
+free
+https://www.google.com/maps/place/National+Portrait+Gallery/@38.8978267,-77.0252077,17z/data=!3m1!4b1!4m5!3m4!1s0x89b7b7918467d295:0x2a576a2d70cc9d9c!8m2!3d38.8978267!4d-77.023019
+1000
+1830
+https://www.si.edu/visit/tips
+https://www.si.edu/visit/VisitorsWithDisabilities
+Metro Station: Gallery Place-Chinatown (9th St. exit) \n There is no public parking facility for Smithsonian museums on the National Mall. Limited 3-hour metered parking and commercial lots are available—see parking map. Reserved parking near the museums can be purchased in advance through ParkWhiz.
+Courtyard Café \n The Café offers a fresh and seasonal menu of Mediterranean-inspired dishes. Using primarily local, organic, and sustainable ingredients, the lunch menu includes salads, soups, quiche, sandwiches, and a selection of cheeses. The Café also offers desserts, such as cheesecake, bread pudding, and kid-friendly cookies and cupcakes. 11:30 a.m. to 6:30 p.m.* daily (Lunch menu served until 3 p.m. weekdays and 4 p.m. weekends)
+
+
+MUSEUM
+Freer
+Freer Gallery of Art
+Art
+
+MUSEUM
+Natl Portraits
+National Portrait Gallery
+Art
+
+
+
+EVENT
+Conversation Circles
+National Portrait Gallery
+Tour
+free
+1000
+1200
+Nov1 2019
+Nov22 2019
+Join this free drop-in program for adults interested in improving their English conversational abilities as we learn about a new subject in American history each week. Connect to history through portraiture, then break into groups for smaller conversations and activities.
+https://www.si.edu/events?trumbaEmbed=view%3Devent%26eventid%3D133758555
+map null
+Meet in G Street Lobby
+
+EVENT
+Portrait Discovery Kits
+National Portrait Gallery
+Kids
+free
+1300
+1600
+Mar1 2019
+Mar1 2019
+Pick up an activity kit that guides you through the museum with games and puzzles and learn more about the people who have made American history.
+https://www.si.edu/events?trumbaEmbed=view%3Devent%26eventid%3D141899227
+map null
+Meet in Education Center, E151
+
+EVENT
+Alexander Hamilton Tour
+National Portrait Gallery
+Tour
+free
+1100
+1200
+Jan20 2020
+Jan20 2020
+Join a Museum Ambassador for a 45-minute in-depth look at the unique architecture and design of the Alexander Hamilton U.S. Custom House, home of the National Museum of the American Indian in New York.
+https://www.si.edu/events?trumbaEmbed=view%3Devent%26eventid%3D126630315
+map null
+Meet at Visitor Services Desk
+
+EVENT
+Fishes with Julie Packard
+National Portrait Gallery
+Kids
+free
+1030
+1130
+Feb23 2017
+Feb23 2017
+Explore the Portrait Gallery in a program that touches on art and history through storytelling. Offered two Mondays and one Saturday a month for toddlers up to age five and their adult companions.
+https://www.si.edu/events?trumbaEmbed=view%3Devent%26eventid%3D140244563
+map null
+Meet at G Street Lobby
+
+EVENT
+Introduction to Watercolor
+Freer Gallery of Art
+Lecture
+free
+1015
+1245
+Jan27 2020
+Jan27 2020
+Beginning students as well as experienced painters explore watercolor techniques and learn new approaches to painting through classroom demonstration, discussion, and experimentation.
+https://www.si.edu/events?trumbaEmbed=view%3Devent%26eventid%3D139588904
+map null
+Meet at Ripley Center
+
+EVENT
+Lunar New Year
+Freer Gallery of Art
+Celebration
+free
+1100
+1700
+Jan26 2019
+Jan26 2019
+Join us for our sixth annual Lunar New Year celebration to ring in the Year of the Rat. Enjoy food, performances, and art representing the richness of New Year celebrations in China, Korea, and Mongolia. Experience interactive art demonstrations, live magic and musical performances, and delicious food for sale. And enjoy two special Sackler exhibitions—Resound: Ancient Bells of China and Sacred Dedication: A Korean Buddhist Masterpiece—and the permanent collection of Asian art in the Freer.
+https://www.si.edu/events?trumbaEmbed=view%3Devent%26eventid%3D140797515
+map null
+Meet at Visitor's Desk
+
+EVENT
+Sketch and Discover
+Freer Gallery of Art
+Tour
+free
+1315
+1415
+Jan22 2018
+Jan22 2018
+Join us for sketching and conversation in the galleries. Led by practicing artists and museum docents and staff, this program combines close looking at selected artworks and drawing fundamentals.
+https://www.si.edu/events?trumbaEmbed=view%3Devent%26eventid%3D140565271
+map null
+Meet at Information Desk
+
