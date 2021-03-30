@@ -20,10 +20,6 @@ VALUES (7,'Butterfly lips', 'It is a bug's life', 'Jon','Collins', '1776-12-25',
 INSERT INTO BIOPARK
 VALUES ();
 
-
-
-wrinpwifwejfawef[oawjefo[ajwe[ofjaweo[jfao[wejf[oawje[ofawje;
-
 INSERT INTO CULTURAL_CENTER
 VALUES ();
 
