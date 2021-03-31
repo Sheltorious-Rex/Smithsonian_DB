@@ -169,18 +169,6 @@ CREATE TABLE EVENT (
     FOREIGN KEY (Sponsor_name) REFERENCES SI_COMPONENT (Name)
 );
 
-CREATE TABLE EXHIBITION ( 
-    Exhibit_name VARCHAR(100) NOT NULL, 
-    Description VARCHAR(1000), 
-    URL VARCHAR(100), 
-    Start_date DATE, 
-    End_date DATE,
---    End_date DATE CHECK (End_date > Start_date), 
-    CONSTRAINT CHK_date CHECK (End_date > Start_date),
-    PRIMARY KEY (Exhibit_name)
-);
-
-
 
 CREATE TABLE GIFT (
     Gift_id INTEGER NOT NULL, 
@@ -219,7 +207,7 @@ CREATE TABLE MACRO_LOCALE (
     Zip_code INTEGER NOT NULL, 
     Contains_component VARCHAR(100) NOT NULL, 
     Admission_cost DECIMAL(5,2), 
-    Buy_ticket_URL VARCHAR(1000), 
+    Maps_URL VARCHAR(1000), 
     Open_time TIMESTAMP, 
     Close_time TIMESTAMP,
 --    Close_time TIMESTAMP CHECK(Close_time > Open_time), 
@@ -252,6 +240,18 @@ CREATE TABLE MUSEUM (
     FOREIGN KEY (Museum_name) REFERENCES SI_COMPONENT (Name)
 );
 
+CREATE TABLE EXHIBITION ( 
+    Exhibit_name VARCHAR(100) NOT NULL, 
+    eMuseum_name VARCHAR(100),
+    Description VARCHAR(1000), 
+    URL VARCHAR(100), 
+    Start_date DATE, 
+    End_date DATE,
+--    End_date DATE CHECK (End_date > Start_date), 
+    CONSTRAINT CHK_date CHECK (End_date > Start_date),
+    PRIMARY KEY (Exhibit_name),
+    FOREIGN KEY (eMuseum_name) REFERENCES MUSEUM (Museum_name)
+);
 
 
 CREATE TABLE RECORD (

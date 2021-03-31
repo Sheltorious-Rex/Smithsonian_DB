@@ -12,7 +12,7 @@ INSERT ALL
 SELECT * FROM dual;
 
 
--- Dependent on SI_COMPONENT
+-- Dependent on SI_COMPONENT --------------------------------------------------------------------------------------
 
 INSERT ALL
     INTO MACRO_LOCALE VALUES(1050,
@@ -52,34 +52,49 @@ INSERT ALL
 SELECT * FROM dual;
 
 
+INSERT ALL
+    INTO MUSEUM VALUES ('Freer Gallery of Art','Asian Art')
+    INTO MUSEUM VALUES ('National Portrait Gallery','Portraits')
+SELECT * FROM dual;
+
+--INSERT INTO EXHIBITION
+INSERT ALL 
+    INTO EXHIBITION VALUES('Faces of History', 
+                            'National Portrait Gallery',
+                            'Come stare at some people''s faces in awe.',
+                            'facesofhistory/si.com',
+                            DATE '2021-03-30',
+                            DATE '2021-04-15')
+    INTO EXHIBITION VALUES('Famous Noses',
+                            'National Portrait Gallery',
+                            'You would not belive how many types of noses there are in the world!',
+                            'famousnoses/si.com',
+                            DATE '2021-05-15',
+                            DATE '2021-05-25')
+SELECT * FROM dual;
+
+INSERT ALL 
+    INTO OBJECT VALUES(0,'Bonehalisa','Lovely colors depicting a chick and a flower.',DATE '1640-06-15')
+    INTO OBJECT VALUES(1,'Love Hammer', 'Lovely colors depicting a flower and a stick.',DATE '1641-06-11')
+    INTO OBJECT VALUES(2,'Sticky Chops', 'Lunch with an uncle.', DATE '1740-02-1')
+    INTO OBJECT VALUES(3,'Swan neck', 'A picture of a goose neck.',DATE '1744-12-6')
+    INTO OBJECT VALUES(4,'Mushroom soup', 'A swamp inside of a shoe.',DATE '1989-08-20')
+    INTO OBJECT VALUES(5,'Cliff', 'Rocks giving an extreme vertical experience.', DATE '1990-06-15')
+    INTO OBJECT VALUES(6,'Cloud face', 'Staring at the sky in torpor',DATE '1999-3-20')
+    INTO OBJECT VALUES(7,'Butterfly lips', 'It is a bugs life', DATE '1776-12-25')
+SELECT * FROM dual;
 
 
-
-
-
---INSERT INTO OBJECT
---INSERT ALL 
---    INTO OBJECT VALUES(0,'Bonehalisa','Lovely colors depicting a chick and a flower.',DATE '1640-06-15')
---    INTO OBJECT VALUES(1,'Love Hammer', 'Lovely colors depicting a flower and a stick.',DATE '1641-06-11')
---    INTO OBJECT VALUES(2,'Sticky Chops', 'Lunch with an uncle.', DATE '1740-02-1')
---    INTO OBJECT VALUES(3,'Swan neck', 'A picture of a goose neck.',DATE '1744-12-6')
---    INTO OBJECT VALUES(4,'Mushroom soup', 'A swamp inside of a shoe.',DATE '1989-08-20')
---    INTO OBJECT VALUES(5,'Cliff', 'Rocks giving an extreme vertical experience.', DATE '1990-06-15')
---    INTO OBJECT VALUES(6,'Cloud face', 'Staring at the sky in torpor',DATE '1999-3-20')
---    INTO OBJECT VALUES(7,'Butterfly lips', 'It is a bugs life', DATE '1776-12-25')
---SELECT * FROM dual;
---
-
---INSERT ALL 
---    INTO ARTWORK VALUES(0,'Bonehalisa','Lovely colors depicting a chick and a flower.','Fhil','Harper',DATE '1640-06-15','Painting','bonehalisa/si.com')
---    INTO ARTWORK VALUES(1,'Love Hammer', 'Lovely colors depicting a flower and a stick.', 'Fhil','Harper', DATE '1641-06-11', 'Painting', 'lovehammer/si.com')
---    INTO ARTWORK VALUES(2,'Sticky Chops', 'Lunch with an uncle.', 'Fhil','Harper', DATE '1740-02-1', 'Painting', 'stickychops/si.com')
---    INTO ARTWORK VALUES(3,'Swan neck', 'A picture of a goose neck.', 'Dana','Swamble', DATE '1744-12-6', 'Painting', 'swanneck/si.com')
---    INTO ARTWORK VALUES(4,'Mushroom soup', 'A swamp inside of a shoe.', 'Billy','Tortle', DATE '1989-08-20', 'Painting', 'mushysoup/si.com')
---    INTO ARTWORK VALUES(5,'Cliff', 'Rocks giving an extreme vertical experience.', 'Billy','Harper', DATE '1990-06-15', 'Painting', 'cliff/si.com')
---    INTO ARTWORK VALUES(6,'Cloud face', 'Staring at the sky in torpor', 'Billy','Harper', DATE '1999-3-20', 'Painting', 'couldface/si.com')
---    INTO ARTWORK VALUES(7,'Butterfly lips', 'It is a bugs life', 'Jon','Collins', DATE '1776-12-25', 'Painting', 'butterfly/si.com')
---SELECT * FROM dual;
+INSERT ALL 
+    INTO ARTWORK VALUES(0,'Fhil','Harper','Painting','bonehalisa/si.com')
+    INTO ARTWORK VALUES(1,'Fhil','Harper', 'Painting', 'lovehammer/si.com')
+    INTO ARTWORK VALUES(2,'Fhil','Harper','Painting', 'stickychops/si.com')
+    INTO ARTWORK VALUES(3,'Dana','Swamble', 'Painting', 'swanneck/si.com')
+    INTO ARTWORK VALUES(4,'Billy','Tortle','Painting', 'mushysoup/si.com')
+    INTO ARTWORK VALUES(5,'Billy','Harper', 'Painting', 'cliff/si.com')
+    INTO ARTWORK VALUES(6,'Billy','Harper','Painting', 'couldface/si.com')
+    INTO ARTWORK VALUES(7,'Jon','Collins','Painting', 'butterfly/si.com')
+SELECT * FROM dual;
 --
 --INSERT INTO ARTICLE
 --VALUES ();
@@ -100,92 +115,86 @@ SELECT * FROM dual;
 --VALUES ();
 --
 
---INSERT ALL
---    INTO EVENT VALUES('Conversation Circles',
---                      'National Portrait Gallery',
---                      'Tour',
---                      TIMESTAMP '2021-06-25 10:00:00.000000',
---                      TIMESTAMP '2021-06-25 12:00:00.000000',
---                      DATE '2019-11-01',
---                      DATE '2019-11-22',
---                      'Join this free drop in program for adults interested in improving their English conversational abilities as we learn about a new subject in American history each week. Connect to history through portraiture, then break into groups for smaller conversations and activities.',
---                      'https://www.si.edu/events?trumbaEmbed=view%3Devent%26eventid%3D133758555',
---                      'Meet in G Street Lobby',
---                      0)
---    INTO EVENT VALUES('Portrait Discovery Kits',
---                      'National Portrait Gallery',
---                      'Kids',
---                      TIMESTAMP '2021-06-25 13:00:00.000000',
---                      TIMESTAMP '2021-06-25 16:00:00.000000',
---                      DATE '2019-03-01',
---                      DATE '2019-03-21',
---                      'Pick up an activity kit that guides you through the museum with games and puzzles and learn more about the people who have made American history.',
---                      'https://www.si.edu/events?trumbaEmbed=view%3Devent%26eventid%3D141899227',
---                      'Meet in Education Center, E151',
---                      0)
---    INTO EVENT VALUES('Alexander Hamilton Tour',
---                      'National Portrait Gallery',
---                      'Tour',
---                      TIMESTAMP '2021-06-25 11:00:00.000000',
---                      TIMESTAMP '2021-06-25 12:00:00.000000',
---                      DATE '2020-01-20',
---                      DATE '2020-01-20',
---                      'Join a Museum Ambassador for a 45-minute in-depth look at the unique architecture and design of the Alexander Hamilton U.S. Custom House, home of the National Museum of the American Indian in New York.',
---                      'https://www.si.edu/events?trumbaEmbed=view%3Devent%26eventid%3D126630315',
---                      'Meet at Visitor Services Desk',
---                      0)
---    INTO EVENT VALUES('Fishes with Julie Packard',
---                      'National Portrait Gallery',
---                      'Kids',
---                      TIMESTAMP '2021-06-25 10:30:00.000000',
---                      TIMESTAMP '2021-06-25 11:30:00.000000',
---                      DATE '2017-02-23',
---                      DATE '2017-02-23',
---                      'Explore the Portrait Gallery in a program that touches on art and history through storytelling. Offered two Mondays and one Saturday a month for toddlers up to age five and their adult companions.',
---                      'https://www.si.edu/events?trumbaEmbed=view%3Devent%26eventid%3D140244563',
---                      'Meet at G Street Lobby',
---                      0)
---    INTO EVENT VALUES('Introduction to Watercolor',
---                      'Freer Gallery of Art',
---                      'Lecture',
---                      TIMESTAMP '2021-06-25 10:15:00.000000',
---                      TIMESTAMP '2021-06-25 12:45:00.000000',
---                      DATE '2020-01-27',
---                      DATE '2020-01-27',
---                      'Beginning students as well as experienced painters explore watercolor techniques and learn new approaches to painting through classroom demonstration, discussion, and experimentation.',
---                      'https://www.si.edu/events?trumbaEmbed=view%3Devent%26eventid%3D139588904',
---                      'Meet at Ripley Center',
---                      0)
---    INTO EVENT VALUES('Lunar New Year',
---                      'Freer Gallery of Art',
---                      'Celebration',
---                      TIMESTAMP '2021-06-25 11:00:00.000000',
---                      TIMESTAMP '2021-06-25 17:00:00.000000',
---                      DATE '2019-01-26',
---                      DATE '2019-01-26',
---                      'Join us for our sixth annual Lunar New Year celebration to ring in the Year of the Rat. Enjoy food, performances, and art representing the richness of New Year celebrations in China, Korea, and Mongolia. Experience interactive art demonstrations, live magic and musical performances, and delicious food for sale. And enjoy two special Sackler exhibitions—Resound: Ancient Bells of China and Sacred Dedication: A Korean Buddhist Masterpiece—and the permanent collection of Asian art in the Freer.',
---                      'https://www.si.edu/events?trumbaEmbed=view%3Devent%26eventid%3D140797515',
---                      'Meet at Visitor''s Desk',
---                      0)
---    INTO EVENT VALUES('Sketch and Discover',
---                      'Freer Gallery of Art',
---                      'Tour',
---                      TIMESTAMP '2021-06-25 13:15:00.000000',
---                      TIMESTAMP '2021-06-25 14:15:00.000000',
---                      DATE '2018-01-28',
---                      DATE '2018-01-28',
---                      'Join us for sketching and conversation in the galleries. Led by practicing artists and museum docents and staff, this program combines close looking at selected artworks and drawing fundamentals.',
---                      'https://www.si.edu/events?trumbaEmbed=view%3Devent%26eventid%3D140565271',
---                      'Meet at Information Desk',
---                      0)
---                      
---SELECT * FROM dual;
+INSERT ALL
+    INTO EVENT VALUES('Conversation Circles',
+                      'National Portrait Gallery',
+                      'Tour',
+                      TIMESTAMP '2021-06-25 10:00:00.000000',
+                      TIMESTAMP '2021-06-25 12:00:00.000000',
+                      DATE '2019-11-01',
+                      DATE '2019-11-22',
+                      'Join this free drop in program for adults interested in improving their English conversational abilities as we learn about a new subject in American history each week. Connect to history through portraiture, then break into groups for smaller conversations and activities.',
+                      'https://www.si.edu/events?trumbaEmbed=view%3Devent%26eventid%3D133758555',
+                      'Meet in G Street Lobby',
+                      0)
+    INTO EVENT VALUES('Portrait Discovery Kits',
+                      'National Portrait Gallery',
+                      'Kids',
+                      TIMESTAMP '2021-06-25 13:00:00.000000',
+                      TIMESTAMP '2021-06-25 16:00:00.000000',
+                      DATE '2019-03-01',
+                      DATE '2019-03-21',
+                      'Pick up an activity kit that guides you through the museum with games and puzzles and learn more about the people who have made American history.',
+                      'https://www.si.edu/events?trumbaEmbed=view%3Devent%26eventid%3D141899227',
+                      'Meet in Education Center, E151',
+                      0)
+    INTO EVENT VALUES('Alexander Hamilton Tour',
+                      'National Portrait Gallery',
+                      'Tour',
+                      TIMESTAMP '2021-06-25 11:00:00.000000',
+                      TIMESTAMP '2021-06-25 12:00:00.000000',
+                      DATE '2020-01-20',
+                      DATE '2020-01-20',
+                      'Join a Museum Ambassador for a 45-minute in-depth look at the unique architecture and design of the Alexander Hamilton U.S. Custom House, home of the National Museum of the American Indian in New York.',
+                      'https://www.si.edu/events?trumbaEmbed=view%3Devent%26eventid%3D126630315',
+                      'Meet at Visitor Services Desk',
+                      0)
+    INTO EVENT VALUES('Fishes with Julie Packard',
+                      'National Portrait Gallery',
+                      'Kids',
+                      TIMESTAMP '2021-06-25 10:30:00.000000',
+                      TIMESTAMP '2021-06-25 11:30:00.000000',
+                      DATE '2017-02-23',
+                      DATE '2017-02-23',
+                      'Explore the Portrait Gallery in a program that touches on art and history through storytelling. Offered two Mondays and one Saturday a month for toddlers up to age five and their adult companions.',
+                      'https://www.si.edu/events?trumbaEmbed=view%3Devent%26eventid%3D140244563',
+                      'Meet at G Street Lobby',
+                      0)
+    INTO EVENT VALUES('Introduction to Watercolor',
+                      'Freer Gallery of Art',
+                      'Lecture',
+                      TIMESTAMP '2021-06-25 10:15:00.000000',
+                      TIMESTAMP '2021-06-25 12:45:00.000000',
+                      DATE '2020-01-27',
+                      DATE '2020-01-27',
+                      'Beginning students as well as experienced painters explore watercolor techniques and learn new approaches to painting through classroom demonstration, discussion, and experimentation.',
+                      'https://www.si.edu/events?trumbaEmbed=view%3Devent%26eventid%3D139588904',
+                      'Meet at Ripley Center',
+                      0)
+    INTO EVENT VALUES('Lunar New Year',
+                      'Freer Gallery of Art',
+                      'Celebration',
+                      TIMESTAMP '2021-06-25 11:00:00.000000',
+                      TIMESTAMP '2021-06-25 17:00:00.000000',
+                      DATE '2019-01-26',
+                      DATE '2019-01-26',
+                      'Join us for our sixth annual Lunar New Year celebration to ring in the Year of the Rat. Enjoy food, performances, and art representing the richness of New Year celebrations in China, Korea, and Mongolia. Experience interactive art demonstrations, live magic and musical performances, and delicious food for sale. And enjoy two special Sackler exhibitions—Resound: Ancient Bells of China and Sacred Dedication: A Korean Buddhist Masterpiece—and the permanent collection of Asian art in the Freer.',
+                      'https://www.si.edu/events?trumbaEmbed=view%3Devent%26eventid%3D140797515',
+                      'Meet at Visitor''s Desk',
+                      0)
+    INTO EVENT VALUES('Sketch and Discover',
+                      'Freer Gallery of Art',
+                      'Tour',
+                      TIMESTAMP '2021-06-25 13:15:00.000000',
+                      TIMESTAMP '2021-06-25 14:15:00.000000',
+                      DATE '2018-01-28',
+                      DATE '2018-01-28',
+                      'Join us for sketching and conversation in the galleries. Led by practicing artists and museum docents and staff, this program combines close looking at selected artworks and drawing fundamentals.',
+                      'https://www.si.edu/events?trumbaEmbed=view%3Devent%26eventid%3D140565271',
+                      'Meet at Information Desk',
+                      0)
+SELECT * FROM dual;
 
---VALUES ();
---
---INSERT INTO EXHIBITION
---VALUES ();
---
 --INSERT INTO FAUNA
 --VALUES ();
 --
@@ -209,8 +218,7 @@ SELECT * FROM dual;
 --INSERT INTO MEMBER
 --VALUES ();
 --
---INSERT INTO MUSEUM
---VALUES ();
+
 --
 
 --
