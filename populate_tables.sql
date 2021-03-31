@@ -91,8 +91,8 @@ INSERT ALL
     INTO ARTWORK VALUES(2,'Fhil Harper','Painting', 'stickychops/si.com')
     INTO ARTWORK VALUES(3,'Dana Swamble', 'Painting', 'swanneck/si.com')
     INTO ARTWORK VALUES(4,'Billy Tortle','Painting', 'mushysoup/si.com')
-    INTO ARTWORK VALUES(5,'Billy Harper', 'Painting', 'cliff/si.com')
-    INTO ARTWORK VALUES(6,'Billy Harper','Painting', 'couldface/si.com')
+    INTO ARTWORK VALUES(5,'Billy Tortle', 'Painting', 'cliff/si.com')
+    INTO ARTWORK VALUES(6,'Billy Tortle','Painting', 'couldface/si.com')
     INTO ARTWORK VALUES(7,'Jon Collins','Painting', 'butterfly/si.com')
 SELECT * FROM dual;
 --
