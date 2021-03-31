@@ -85,8 +85,7 @@ CREATE TABLE ARTIFACT (
 
 CREATE TABLE ARTWORK (
     Art_id INTEGER NOT NULL, 
-    Creator_first_name VARCHAR(100), 
-    Creator_last_name VARCHAR(100), 
+    Creator_name VARCHAR(100),
     Art_type VARCHAR(100), 
     URL VARCHAR(100),
     PRIMARY KEY (Art_id),
